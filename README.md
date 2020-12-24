@@ -1,0 +1,2 @@
+# collecionsnatcher
+userscript
