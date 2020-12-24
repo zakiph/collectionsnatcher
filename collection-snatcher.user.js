@@ -14,9 +14,9 @@
 document.querySelector(".sidebar").innerHTML += '<div class="box"><div class="head"><strong>Auto Snatch</strong></div><div class="pad"><div class="submit_div">\
 <div class="option_group"><input type="checkbox" name="mostsnatch" id="mostsnatch" checked="checked"><label for="mostsnatch"> download most snatched only</label>\
 <div class="option_group"><input type="checkbox" name="prefuncensored" id="prefuncensored"><label for="prefuncensored"> prefer uncensored</label>\
-<div class="option_group"><input type="checkbox" name="prefcbz" id="prefcbz"><label for="prefcbz"> prefer things from grey shit</label>\
+<div class="option_group"><input type="checkbox" name="prefcbz" id="prefcbz"><label for="prefcbz"> prefer things from group (*/*/*)</label>\
 <div class="field_div"><input type="text" size="10" name="format" id="prefformat"></div>\
-<div class="option_group"><input type="checkbox" name="excludeshit" id="excludeshit"><label for="excludeshit"> exclude tags shit</label>\
+<div class="option_group"><input type="checkbox" name="excludeshit" id="excludeshit"><label for="excludeshit"> exclude tags</label>\
 <div class="field_div"><input type="text" size="10" name="format" id="excat"></div>\
 <div class="option_group"><input type="number" name="timedelay" id="timedelay" min="100" max="9999" value="500"><label for="timedelay"> delay between downloads</label>\
 </div><input type="submit" id="snatch" value="Snatch!"></div>\
