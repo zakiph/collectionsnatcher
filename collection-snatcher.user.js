@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         zaki's shitty mass collection downloader
 // @namespace    https://neozaki.tech/
-// @version      0.2.1
+// @version      0.2.2
 // @description  mass downloads torrents from a collection
 // @author       zaki
 // @match        https://oppaiti.me/collages.php?id=*
