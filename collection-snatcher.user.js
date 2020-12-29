@@ -5,6 +5,7 @@
 // @description  mass downloads torrents from a collection
 // @author       zaki
 // @match        https://oppaiti.me/collages.php?id=*
+// @match        https://oppaiti.me/artist.php?id=*
 // @grant        GM_download
 // @grant        GM_info
 // ==/UserScript==
@@ -53,7 +54,7 @@ document.getElementById("snatch").addEventListener("click", n => {
     alltor.forEach(e => {maxfromgroup.push(e.querySelector("a").href);});
     if (document.querySelector("#mostsnatch").checked) {
         allgroup.forEach(e => {
-            var groupidclass = [...document.getElementsByClassName(e.id.slice(0,5) + "id" + e.id.slice(5))];
+            var groupidclass = [...document.getElementsByClassName("groupid_" + e.querySelector("div").id.slice(8))];
             var snatchedlist = [];
             //clean this shit -- no
             //prefer cbz code
