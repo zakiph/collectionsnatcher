@@ -1,2 +1,2 @@
-# collecionsnatcher
+# collectionsnatcher
 userscript
